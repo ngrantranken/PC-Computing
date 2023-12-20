@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous" async></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Products</title>
+</head>
+<body>
+    <header>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="images/logo.jpg" alt="Paracelsus Computing Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="products.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="team.html">Team</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!--Jumbotron-->
+        <div class="p-5 mb-4 bg-body-secondary rounded-3 bg-image shadow text-white" style="background-image: url(images/product-banner.jpg); background-size: 100%;">
+            <div class="container-fluid py-5">
+                <h1 class="display-5 fw-bold text-shadow">Save on Our Biggest Sale Yet!</h1>
+                <p class="col-md-8 fs-4 text-shadow">Our Virus Zapper is now 50% off when you buy 1 or more products over $150.</p>
+            </div>
+            <button class="btn btn-primary btn-lg">BUY NOW!</button>
+        </div>
+        <!--Product Listings-->
+        <div class="row m-2 p-4 row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+            <section class="col">
+                <div class="card">
+                    <img src="images/4090.png" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title">RTX 4090</h2>
+                        <p class="card-text">2520 Boost Clock Speed / 24GB VRAM</p>
+                        <a href="#" class="btn btn-primary">Buy Now</a> 
+                    </div>
+                </div>
+            </section>
+            <section class="col">
+                <div class="card">
+                    <img src="images/7900XT.png" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title">Radeon RX 7900-XT</h2>
+                        <p class="card-text">2394 Boost Clock Speed / 20GB VRAM</p>
+                        <a href="#" class="btn btn-primary">Buy Now</a> 
+                    </div>
+                </div>
+            </section>
+            <section class="col">
+                <div class="card">
+                    <img src="images/7900X.png" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title">Ryzen 9 7900X</h2>
+                        <p class="card-text">12 Cores, 24 Threads at up to 5.6GHz Clock Speeds</p>
+                        <a href="#" class="btn btn-primary">Buy Now</a> 
+                    </div>
+                </div>
+            </section>
+            <section class="col">
+                <div class="card">
+                    <img src="images/12900K.png" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title">Intel I9-12900K</h2>
+                        <p class="card-text">16 Cores, 24 Threads at up to 5.2GHz Clock Speeds</p>
+                        <a href="#" class="btn btn-primary">Buy Now</a> 
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="bg-success text-center text-white absolute-bottom">
+        <p class="p-4 m-0">&copy; Paracelsus Computing 2023</p>
+    </footer>
+</body>
+</html>
